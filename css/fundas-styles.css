@@ -1,0 +1,71 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* COLORES */
+/* #C0CFE0 - AZUL
+   #C5C463 - NARANJA
+   #F2AF3F - AMARILLO
+   #FFA090 - BEIGE
+   #EF5356 - ROJO  
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@400;500;600;700;800;900&display=swap');
+
+body {
+    font-family: 'Gabarito', cursive;
+    background-color: #FFFFFF;
+}
+
+/* ESTILOS DE LA BARRA DE NAVEGACIÓN */
+nav {
+    transition: 1s;
+}
+
+.sombra {
+    box-shadow: 0px 11px 17px -1px rgba(0, 0, 0, 0.67);
+    background-color: #C0CFE0;
+    transition: 1s;
+}
+
+.nav-first-row .logo {
+    width: 15%;
+}
+
+.nav-scnd-row {
+    /* background-color: #C0CFE0; */
+    padding: 1% 0;
+}
+
+.nav-link {
+    width: 100%;
+    color: rgb(128, 128, 128);
+}
+/* FIN DE ESTILOS DE LA BARRA DE NAVEGACIÓN */
+
+/* ESTILOS DE GALLERY */
+.gallery {
+padding: 10%;
+}
+
+.col img{
+    width: 100%;
+}
+
+.col {
+    transition: 0.5s;
+}
+
+.col:hover {
+    scale: 1.08;
+}
+/* FIN DE LOS ESTILO DE GALLERY */
+
+footer {
+    height: 20vh;
+    background-color: #EF5356;
+}
