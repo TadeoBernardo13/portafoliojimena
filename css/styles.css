@@ -45,6 +45,14 @@ nav {
   width: 100%;
   color: rgb(128, 128, 128);
 }
+
+.nav-link-logo {
+  width: 25%;
+}
+
+.svg-logo {
+  fill: #fff;
+}
 /* FIN DE ESTILOS DE LA BARRA DE NAVEGACIÓN */
 
 /* ESTILOS DE LAS CARDS */
