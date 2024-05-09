@@ -17,7 +17,7 @@
 @font-face {
   font-family: "Neon";
 
-  src: url("/assets/fuente/Neon.ttf");
+  src: url("assets/fuente/Neon.ttf");
 }
 
 body {
