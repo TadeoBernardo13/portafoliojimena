@@ -13,10 +13,10 @@
    #FFA090 - BEIGE
    #EF5356 - ROJO  
 */
-@import url("https://fonts.cdnfonts.com/css/neon-80s");
+@import url(https://db.onlinewebfonts.com/c/ce0272ed48a4c133bc9a16545b0c6c74?family=Neon+80s);
 
 body {
-  font-family: "Neon 80s", Courier;
+  font-family: "Neon 80s";
   background-color: #ffffff;
 }
 
