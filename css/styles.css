@@ -16,7 +16,7 @@
 
 @font-face {
   font-family: 'Neon';
-    src: url('/assets/fuente/Neon.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+    src: url('./assets/fuente/Neon.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
 }
 
 body {
