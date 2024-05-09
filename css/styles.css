@@ -35,7 +35,9 @@ nav {
 }
 
 .nav-first-row .logo {
-  width: 15%;
+  width: 100%;
+  transition: 0.8s;
+  filter: invert(100%);
 }
 
 .nav-scnd-row {
@@ -54,16 +56,11 @@ nav {
   width: 25%;
 }
 
-.svg-logo {
-  transition: ease-in 0.6s;
-  fill: #fff;
-}
-
 .nav-link-logo-rz {
   width: 10%;
 }
-.svg-logo-dark {
-  fill: #000;
+.nav-first-row .svg-logo-dark {
+  filter: invert(0%);
 }
 
 /* FIN DE ESTILOS DE LA BARRA DE NAVEGACIÓN */
@@ -108,6 +105,10 @@ nav {
   padding: 8%;
 }
 
+.aboutme .profile-image{
+  border-radius: 15%;
+}
+
 .aboutme p {
   font-size: 2rem;
 }
@@ -140,18 +141,9 @@ footer a svg {
 }
 
 /* ABOUTME */
-@media (max-width: 1000px) {
+@media (max-width: 1024px) {
   .nav-first-row {
     flex-direction: row;
-  }
-
-  .nav-first-row .svg-icons {
-    width: 10%;
-    height: 10%;
-  }
-
-  .nav-first-row .nav-link-logo {
-    width: 40%;
   }
 
   .nav-scnd-row {
@@ -174,7 +166,19 @@ footer a svg {
   }
 }
 
-@media (max-width: 700px) {
+@media (max-width: 768px) {
+  nav {
+    margin-top: 40%;
+  }
+
+  .carousel-item {
+    height: 100vh;
+  }
+
+  .carousel-item img {
+    height: 100vh;
+  }
+
   .aboutme p {
     font-size: 1rem;
   }
@@ -202,7 +206,25 @@ footer a svg {
   }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 426px) {
+  nav {
+    margin-top: 50%;
+  }
+
+  .nav-link-logo  {
+    width: 100px;
+    height: 100px;
+  }
+  
+
+  .carousel-item {
+    height: 100vh;
+  }
+
+  .carousel-item img {
+    height: 100vh;
+  }
+
   .aboutme p {
     font-size: 0.6rem;
   }

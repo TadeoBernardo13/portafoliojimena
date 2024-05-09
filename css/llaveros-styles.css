@@ -23,29 +23,21 @@ body {
 
 /* ESTILOS DE LA BARRA DE NAVEGACIÓN */
 nav {
-  box-shadow: 0px 11px 17px -1px rgba(0, 0, 0, 0.67);
-  background-color: #c0cfe0;
-  transition: 1s;
+  background-color: #C0CFE0;
 }
-
 .nav-scnd-row {
-  /* background-color: #C0CFE0; */
   padding: 1% 0;
 }
 
 .nav-link {
   width: 100%;
-  color: rgb(128, 128, 128);
+  color: rgb(0, 0, 0);
+  font-weight: bolder;
 }
 
 .nav-link-logo {
   width: 25%;
 }
-
-.svg-logo {
-  fill: #000;
-}
-
 /* FIN DE ESTILOS DE LA BARRA DE NAVEGACIÓN */
 
 /* ESTILOS DE GALLERY */

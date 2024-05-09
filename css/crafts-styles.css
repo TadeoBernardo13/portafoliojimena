@@ -13,6 +13,7 @@
    #FFA090 - BEIGE
    #EF5356 - ROJO  
 */
+
 @import url(https://db.onlinewebfonts.com/c/ce0272ed48a4c133bc9a16545b0c6c74?family=Neon+80s);
 
 body {
@@ -21,30 +22,19 @@ body {
 }
 
 /* ESTILOS DE LA BARRA DE NAVEGACIÓN */
-nav {
-  box-shadow: 0px 11px 17px -1px rgba(0, 0, 0, 0.67);
-  background-color: #c0cfe0;
-  transition: 1s;
-}
-
 .nav-scnd-row {
-  /* background-color: #C0CFE0; */
   padding: 1% 0;
 }
 
 .nav-link {
   width: 100%;
-  color: rgb(128, 128, 128);
+  color: rgb(0, 0, 0);
+  font-weight: bolder;
 }
 
 .nav-link-logo {
   width: 25%;
 }
-
-.svg-logo {
-  fill: #000;
-}
-
 /* FIN DE ESTILOS DE LA BARRA DE NAVEGACIÓN */
 
 /* ESTILOS DE GALLERY */
