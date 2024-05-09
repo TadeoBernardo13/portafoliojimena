@@ -14,13 +14,10 @@
    #EF5356 - ROJO  
 */
 
-@font-face {
-  font-family: 'Neon';
-    src: url("../assets/fuente/Neon.ttf") format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
-}
+@import url("https://fonts.cdnfonts.com/css/neon-80s");
 
 body {
-  font-family: "Neon";
+  font-family: 'Neon 80s', sans-serif;
   background-color: #ffffff;
 }
 
